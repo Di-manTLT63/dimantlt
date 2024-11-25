@@ -1,3 +1,16 @@
+import logging
+
+# Настройка логирования
+logging.basicConfig(
+    filename='app.log',  # Имя файла для хранения логов
+    filemode='a',        # Режим записи: 'a' - добавление, 'w' - перезапись
+    format='%(asctime)s - %(levelname)s - %(message)s',  # Формат логов
+    level=logging.DEBUG   # Уровень логирования (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+)
+
+# Пример использования логирования
+logging.info("Программа запущена")
+
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import json
