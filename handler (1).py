@@ -5,7 +5,7 @@ import json
 # Настройка доступа к Google Sheets
 def connect_to_google_sheets():
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name('path/to/your/credentials.json', scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name('G:/1/credentials.json', scope)
     client = gspread.authorize(creds)
     return client
 
