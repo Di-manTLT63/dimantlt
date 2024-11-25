@@ -17,7 +17,7 @@ import json
 
 def my_function():
     # Замените на ваш ID таблицы
-    spreadsheet_id = "1o2-Qq0RJrnxRpQKG0NYyNdKd-QQHYwYBxU56bYbdd0o"
+    spreadsheet_id = "1pOyg3-_oyDWyxqBiao8mATIgbSvHO_uRW2dBfbU31aA"
     
     # Определите массив с разными значениями Amort
     amort_values = ["Амортизаторы задние", "Стойки передние", "Пружины задние", "Пружины передние"]
